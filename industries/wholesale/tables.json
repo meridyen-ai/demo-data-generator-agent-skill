@@ -1,0 +1,13 @@
+{
+  "industry": "wholesale",
+  "description": "Wholesale / distribution: buys finished goods and resells them across multiple warehouses. No production.",
+  "include": [
+    "departments", "employees", "customers", "vendors", "warehouses",
+    "products", "price_list",
+    "sales_orders", "sales_order_lines", "invoices", "invoice_lines", "payments", "returns",
+    "purchase_orders", "purchase_order_lines",
+    "stock_moves", "bank_transactions", "gl_entries"
+  ],
+  "exclude": ["work_centers", "raw_materials", "bom", "bom_lines",
+              "production_orders", "production_consumption", "lots", "promotions", "iot_readings"]
+}

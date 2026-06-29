@@ -1,0 +1,17 @@
+{
+  "growth_rate": 0.07,
+  "avg_margin": 0.22,
+  "return_rate": 0.05,
+  "overdue_rate": 0.18,
+  "tax_rate": 0.07,
+  "inflation": 0.03,
+  "lines_per_order_mean": 5.0,
+  "order_value_sigma": 0.7,
+  "opening_cash": 400000,
+  "seasonality": [0.95, 0.92, 1.0, 1.02, 1.05, 1.03, 0.98, 0.97, 1.05, 1.08, 1.05, 0.9],
+  "counts": {"customers": 600, "vendors": 70, "products": 400, "warehouses": 4, "work_centers": 0},
+  "vendor_categories": ["Brand Supplier", "Importer", "Manufacturer", "Logistics", "Packaging"],
+  "warehouse_type": "DC",
+  "channels": ["Direct", "Reseller", "Key Account"],
+  "payment_terms_days": [30, 45, 60, 90]
+}

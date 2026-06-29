@@ -1,0 +1,17 @@
+{
+  "growth_rate": 0.12,
+  "avg_margin": 0.45,
+  "return_rate": 0.09,
+  "overdue_rate": 0.03,
+  "tax_rate": 0.0825,
+  "inflation": 0.03,
+  "lines_per_order_mean": 2.4,
+  "order_value_sigma": 0.8,
+  "opening_cash": 300000,
+  "seasonality": [0.8, 0.78, 0.9, 0.95, 1.0, 1.0, 0.95, 0.98, 1.0, 1.1, 1.35, 1.6],
+  "counts": {"customers": 5000, "vendors": 60, "products": 600, "warehouses": 6, "work_centers": 0},
+  "vendor_categories": ["Brand", "Wholesaler", "Importer", "Dropship", "Logistics"],
+  "warehouse_type": "Store",
+  "channels": ["Online", "In-Store", "Marketplace", "Mobile App"],
+  "payment_terms_days": [0, 0, 0, 15]
+}

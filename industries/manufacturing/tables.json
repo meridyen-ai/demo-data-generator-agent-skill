@@ -1,0 +1,13 @@
+{
+  "industry": "manufacturing",
+  "description": "Discrete manufacturing: makes finished goods from raw materials via BOMs and production orders, with machine telemetry.",
+  "include": [
+    "departments", "employees", "customers", "vendors", "warehouses", "work_centers",
+    "products", "raw_materials", "price_list", "bom", "bom_lines",
+    "sales_orders", "sales_order_lines", "invoices", "invoice_lines", "payments", "returns",
+    "purchase_orders", "purchase_order_lines",
+    "production_orders", "production_consumption",
+    "stock_moves", "bank_transactions", "gl_entries", "iot_readings"
+  ],
+  "exclude": ["promotions", "lots"]
+}

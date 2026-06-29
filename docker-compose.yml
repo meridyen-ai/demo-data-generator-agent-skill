@@ -1,0 +1,34 @@
+# Postgres target for erp-demo-gen.
+# The ./out directory (where the engine writes CSVs + load.sql) is mounted at
+# /data so the server-side COPY can read the generated files directly.
+services:
+  postgres:
+    image: postgres:16
+    container_name: erp_demo_pg
+    environment:
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: demo
+      POSTGRES_DB: postgres
+    ports:
+      - "5544:5432"
+    volumes:
+      - ./out:/data:ro
+      - erp_demo_pgdata:/var/lib/postgresql/data
+    networks:
+      - default
+      - meridyen-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U demo -d postgres"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  erp_demo_pgdata:
+
+networks:
+  # Shared network created/owned by the other app; we just join it so that app
+  # can reach this Postgres at host "erp_demo_pg" (or "postgres") on port 5432.
+  meridyen-network:
+    external: true
+  default: {}
