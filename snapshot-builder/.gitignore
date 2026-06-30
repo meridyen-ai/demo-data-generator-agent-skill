@@ -1,0 +1,5 @@
+# Secrets and per-run working artifacts
+config/connections.local.json
+out/
+__pycache__/
+*.pyc

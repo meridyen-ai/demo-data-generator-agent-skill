@@ -1,4 +1,5 @@
-# Per-run working artifacts (specs, seeds, generated CSVs, load.sql). Regenerable.
-out/
-__pycache__/
-*.pyc
+# Repo-wide safety net (each skill also has its own .gitignore)
+**/out/
+**/__pycache__/
+**/*.pyc
+**/connections.local.json

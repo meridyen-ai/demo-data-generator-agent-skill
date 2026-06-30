@@ -1,0 +1,2577 @@
+{
+  "id": 24,
+  "space_id": 4,
+  "connection_id": 588,
+  "comment": null,
+  "created_by": 1,
+  "author_name": "admin",
+  "created_at": "2026-06-29T15:47:04.418039+00:00",
+  "selected_schema": {
+    "dbo.zkbi_tMuhasebe": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zTarih": {
+          "selected": true
+        },
+        "zEvrakTarihi": {
+          "selected": true
+        },
+        "MuhasebeFisNo": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "SN": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "HsKod3": {
+          "selected": true
+        },
+        "HsKod2": {
+          "selected": true
+        },
+        "HsKod1": {
+          "selected": true
+        },
+        "HesapKodu": {
+          "selected": true
+        },
+        "HesapAdi": {
+          "selected": true
+        },
+        "Aciklama1": {
+          "selected": true
+        },
+        "Aciklama2": {
+          "selected": true
+        },
+        "Borc": {
+          "selected": true
+        },
+        "Alacak": {
+          "selected": true
+        },
+        "BorcMiktari": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AlacakMiktari": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "Doviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "Modul": {
+          "selected": true
+        },
+        "BelgeNo": {
+          "selected": true
+        },
+        "ReferansKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "ReferansAdi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "ProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod1": {
+          "selected": true
+        },
+        "AnaKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "MaliTablo": {
+          "selected": true
+        },
+        "MT": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaBol1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaBol2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod3Adi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod3AdiB": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod3AdiK": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod2Adi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod2AdiB": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod1Adi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod1AdiB": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "CalismaTipi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Tanim": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "GelGId": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek9": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek10": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zReferansKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zRefaransAdi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zReferansTuru": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zRefaransDepartman": {
+          "selected": true,
+          "is_hidden": true
+        }
+      },
+      "instructions": "General-ledger accounting fact (muhasebe fişi). UNION with _Arsiv for full history.\nMETRIC:\n- Net tutar / gider / gelir = SUM(ISNULL(Borc,0) - ISNULL(Alacak,0)).\nACCOUNT CLASS (mali tablo) — filter by first digit of HesapKodu OR the MaliTablo column:\n- LEFT(HesapKodu,1)=N'1' assets, N'2' assets, N'3' liabilities -> BILANCO (balance sheet).\n- LEFT(HesapKodu,1)=N'6' -> GELIR (income statement).\n- LEFT(HesapKodu,1)=N'7' -> MALIYET (cost/expense accounts).\n- Or use MaliTablo=N'1-BILANCO' directly (precomputed column).\nDIMENSIONS:\n- zTarih / EvrakTarihi: posting date.  HesapAdi: account name (LIKE N'%ELEKTRİK GİDER%').\n- HsKod1..3 / AnaKod1: account hierarchy.  Sirket: company.  KurCinsi/Doviz: currency.\nDEFAULT CLASS: a generic \"muhasebe hesabı tutarı\" / \"mali tablo (toplam) tutarı\" question (no class named) means MaliTablo=N'1-BILANCO'. The net Borc-Alacak across ALL classes is ~0, so an unfiltered sum returns 0 — you MUST add the MaliTablo filter. MaliTablo values: N'1-BILANCO' (bilanço/balance sheet, the default), N'2-GELIR TABLOSU' (gelir/income), N'3-MALIYET' (maliyet/cost). Only filter by LEFT(HesapKodu,1) when the question names a specific account-code class (e.g. '7')."
+    },
+    "dbo.zkbi_tMuhasebe_Arsiv": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zTarih": {
+          "selected": true
+        },
+        "zEvrakTarihi": {
+          "selected": true
+        },
+        "MuhasebeFisNo": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "SN": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "HsKod3": {
+          "selected": true
+        },
+        "HsKod2": {
+          "selected": true
+        },
+        "HsKod1": {
+          "selected": true
+        },
+        "HesapKodu": {
+          "selected": true
+        },
+        "HesapAdi": {
+          "selected": true
+        },
+        "Aciklama1": {
+          "selected": true
+        },
+        "Aciklama2": {
+          "selected": true
+        },
+        "Borc": {
+          "selected": true
+        },
+        "Alacak": {
+          "selected": true
+        },
+        "BorcMiktari": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AlacakMiktari": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "Doviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "Modul": {
+          "selected": true
+        },
+        "BelgeNo": {
+          "selected": true
+        },
+        "ReferansKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "ReferansAdi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "ProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodMetin8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rKodSayi8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod1": {
+          "selected": true
+        },
+        "AnaKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "MaliTablo": {
+          "selected": true
+        },
+        "MT": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaBol1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaBol2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod3Adi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod3AdiB": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod3AdiK": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod2Adi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod2AdiB": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod1Adi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AnaKod1AdiB": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "CalismaTipi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Tanim": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "GelGId": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek9": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Yedek10": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zReferansKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zRefaransAdi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zReferansTuru": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zRefaransDepartman": {
+          "selected": true,
+          "is_hidden": true
+        }
+      },
+      "instructions": "Archive twin of zkbi_tMuhasebe. Identical columns. UNION ALL with the live table for any\ntotal/period question. Same metric (Borc-Alacac) and HesapKodu/MaliTablo class logic."
+    },
+    "dbo.zkbi_tStokCariAnaliz": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zTarih": {
+          "selected": true
+        },
+        "sBelgeNo": {
+          "selected": true
+        },
+        "sStokKodu": {
+          "selected": true
+        },
+        "sUreticiKodu": {
+          "selected": true
+        },
+        "sStokAdi": {
+          "selected": true
+        },
+        "sStokKoduAdBr": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sBirim": {
+          "selected": true
+        },
+        "sBirim2": {
+          "selected": true
+        },
+        "sYapAciklama": {
+          "selected": true
+        },
+        "sGirisCikis": {
+          "selected": true
+        },
+        "sMiktar": {
+          "selected": true
+        },
+        "sBrutFiyat": {
+          "selected": true
+        },
+        "sBirimFiyat": {
+          "selected": true
+        },
+        "sIskonto": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sNetTutar": {
+          "selected": true
+        },
+        "sKdv": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sKdvTutari": {
+          "selected": true
+        },
+        "sToplamTutar": {
+          "selected": true
+        },
+        "sIadeFiyat": {
+          "selected": true
+        },
+        "sAciklama": {
+          "selected": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "NetTutarDoviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "sMaliyet": {
+          "selected": true
+        },
+        "sKar": {
+          "selected": true
+        },
+        "sMaliyetAF": {
+          "selected": true
+        },
+        "sKarAF": {
+          "selected": true
+        },
+        "sHareketTuru": {
+          "selected": true
+        },
+        "sHareketTuruTam": {
+          "selected": true
+        },
+        "sFaturaTipi": {
+          "selected": true
+        },
+        "rCariTip": {
+          "selected": true
+        },
+        "sCariKod": {
+          "selected": true
+        },
+        "sCariKodIsim": {
+          "selected": true
+        },
+        "sCariIsim": {
+          "selected": true
+        },
+        "sYeri": {
+          "selected": true
+        },
+        "sUlkeKodu": {
+          "selected": true
+        },
+        "sUlke": {
+          "selected": true
+        },
+        "sCariIl": {
+          "selected": true
+        },
+        "sCariIlce": {
+          "selected": true
+        },
+        "sSiparisNo": {
+          "selected": true
+        },
+        "sIrsaliyeNo": {
+          "selected": true
+        },
+        "sIrsaliyeTarih": {
+          "selected": true
+        },
+        "sDepoKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sDepoAdi": {
+          "selected": true
+        },
+        "rProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rPlasiyerKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rPlasiyerAdi": {
+          "selected": true
+        },
+        "rPlasiyer": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokGrupKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokGrupAdi": {
+          "selected": true
+        },
+        "rStokKodAdi1": {
+          "selected": true
+        },
+        "rStokKodAdi2": {
+          "selected": true
+        },
+        "rStokKodAdi3": {
+          "selected": true
+        },
+        "rStokKodAdi4": {
+          "selected": true
+        },
+        "rStokKodAdi5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariGrupKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariGrupAdi": {
+          "selected": true
+        },
+        "rCariKodAdi1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rfOzelKod1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rfOzelKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rfOzelKodAdi1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rfOzelKodAdi2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyat1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyat2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyat3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyat4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyat1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyat2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyat3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyat4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyatDovizli": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyatKurCinsi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyatDovizli": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyatKurCinsi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zVadeTarihi": {
+          "selected": true
+        },
+        "zTeslimTarihi": {
+          "selected": true
+        }
+      },
+      "instructions": "Sales & purchase movement fact (stok-cari hareket). UNION with _Arsiv for full history.\nMETRIC:\n- Satış/alış tutarı TL  -> SUM(ISNULL(sNetTutar,0))\n- Satış/alış tutarı USD -> SUM(ISNULL(NetTutarDoviz,0))\n- Satış/alış miktarı    -> SUM(ISNULL(sMiktar,0))\nMANDATORY MOVEMENT FILTER (always include both):\n  LEFT(sHareketTuru,1) IN (N'H',N'I',N'J',N'K',N'N')   -- fatura-type movements\n  AND LEFT(sGirisCikis,1)=N'2'   -- satış (sales);  use N'1' for alış (purchase)\nDIMENSIONS (for \"by X\" / filters):\n- sCariIsim / sCariKodIsim: customer name; sCariKod: customer code.\n- sUlke: country (e.g. N'TÜRKİYE'); sCariIl: city (N'İSTANBUL', N'ANKARA', N'KONYA').\n- rCariTip: N'A-Alici' (customer) | N'S-Satici' (supplier).\n- rPlasiyerAdi: sales rep (N'MERKEZ', N'ALI CELIK', ...). Use LIKE N'%name%' if unsure.\n- Stock hierarchy: rStokGrupAdi (N'MAMÜL',N'TICARI MAL',N'HURDA-ATIK',N'YARI MAMÜL'),\n  rStokKodAdi1..4 (brand/series), sStokAdi (item), sYapAciklama (e.g. N'RENK:HAM (R1)' for color).\n- sBelgeNo: document no.  zTarih: movement date.\n- 'Müşteri/alıcı' sorularında her zaman rCariTip=N'A-Alici' filtresi ekle.\n- 'Yurtiçi müşteri' müşteri tipini (rCariTip) ifade eder, sUlke filtresi değil.\n- Ülke filtresinde her zaman LIKE kullanın ve Türkçe karakterleri koruyun: Türkiye için sUlke LIKE N'%TÜRK%'.\n- 'Ülkeye satış' soruları rCariTip filtresi gerektirmez; rCariTip=N'A-Alici' yalnızca 'müşteri/alıcı' kelimesi geçtiğinde eklenir.\n- ITEM vs GROUP: a specific product/service NAME (e.g. 'HIZMET STOGU', a part name) filters sStokAdi LIKE N'%name%'. rStokGrupAdi is ONLY for broad categories (MAMÜL, TICARI MAL, HURDA-ATIK, YARI MAMÜL) — don't use it for a specific item."
+    },
+    "dbo.zkbi_tStokCariAnaliz_Arsiv": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zTarih": {
+          "selected": true
+        },
+        "sBelgeNo": {
+          "selected": true
+        },
+        "sStokKodu": {
+          "selected": true
+        },
+        "sUreticiKodu": {
+          "selected": true
+        },
+        "sStokAdi": {
+          "selected": true
+        },
+        "sStokKoduAdBr": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sBirim": {
+          "selected": true
+        },
+        "sBirim2": {
+          "selected": true
+        },
+        "sYapAciklama": {
+          "selected": true
+        },
+        "sGirisCikis": {
+          "selected": true
+        },
+        "sMiktar": {
+          "selected": true
+        },
+        "sBrutFiyat": {
+          "selected": true
+        },
+        "sBirimFiyat": {
+          "selected": true
+        },
+        "sIskonto": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sNetTutar": {
+          "selected": true
+        },
+        "sKdv": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sKdvTutari": {
+          "selected": true
+        },
+        "sToplamTutar": {
+          "selected": true
+        },
+        "sIadeFiyat": {
+          "selected": true
+        },
+        "sAciklama": {
+          "selected": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "NetTutarDoviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "sMaliyet": {
+          "selected": true
+        },
+        "sKar": {
+          "selected": true
+        },
+        "sMaliyetAF": {
+          "selected": true
+        },
+        "sKarAF": {
+          "selected": true
+        },
+        "sHareketTuru": {
+          "selected": true
+        },
+        "sHareketTuruTam": {
+          "selected": true
+        },
+        "sFaturaTipi": {
+          "selected": true
+        },
+        "rCariTip": {
+          "selected": true
+        },
+        "sCariKod": {
+          "selected": true
+        },
+        "sCariKodIsim": {
+          "selected": true
+        },
+        "sCariIsim": {
+          "selected": true
+        },
+        "sYeri": {
+          "selected": true
+        },
+        "sUlkeKodu": {
+          "selected": true
+        },
+        "sUlke": {
+          "selected": true
+        },
+        "sCariIl": {
+          "selected": true
+        },
+        "sCariIlce": {
+          "selected": true
+        },
+        "sSiparisNo": {
+          "selected": true
+        },
+        "sIrsaliyeNo": {
+          "selected": true
+        },
+        "sIrsaliyeTarih": {
+          "selected": true
+        },
+        "sDepoKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sDepoAdi": {
+          "selected": true
+        },
+        "rProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rPlasiyerKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rPlasiyerAdi": {
+          "selected": true
+        },
+        "rPlasiyer": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokGrupKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokGrupAdi": {
+          "selected": true
+        },
+        "rStokKodAdi1": {
+          "selected": true
+        },
+        "rStokKodAdi2": {
+          "selected": true
+        },
+        "rStokKodAdi3": {
+          "selected": true
+        },
+        "rStokKodAdi4": {
+          "selected": true
+        },
+        "rStokKodAdi5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariGrupKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariGrupAdi": {
+          "selected": true
+        },
+        "rCariKodAdi1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rfOzelKod1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rfOzelKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rfOzelKodAdi1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rfOzelKodAdi2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyat1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyat2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyat3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyat4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyat1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyat2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyat3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyat4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyatDovizli": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sSatisFiyatKurCinsi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyatDovizli": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "sAlisFiyatKurCinsi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rhCariEk8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk6": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk7": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rnCariEk8": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zVadeTarihi": {
+          "selected": true
+        },
+        "zTeslimTarihi": {
+          "selected": true
+        }
+      },
+      "instructions": "Archive twin of zkbi_tStokCariAnaliz (older rows). Identical columns. Never query alone —\nUNION ALL it with the live table for any total/history question. Same metrics & filters."
+    },
+    "dbo.zkbi_tFinansCari": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Tarih": {
+          "selected": true
+        },
+        "VadeTarihi": {
+          "selected": true
+        },
+        "BelgeNo": {
+          "selected": true
+        },
+        "Aciklama": {
+          "selected": true
+        },
+        "rCariTip": {
+          "selected": true
+        },
+        "CariKod": {
+          "selected": true
+        },
+        "CariIsim": {
+          "selected": true
+        },
+        "CariKoduAdi": {
+          "selected": true
+        },
+        "BorcTL": {
+          "selected": true
+        },
+        "AlacakTL": {
+          "selected": true
+        },
+        "BorcAlacakTL": {
+          "selected": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "BorcDoviz": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "AlacakDoviz": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "BorcAlacakDoviz": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "HTur": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "HareketTuru": {
+          "selected": true
+        },
+        "HareketTuruDetay": {
+          "selected": true
+        },
+        "Yeri": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "UlkeKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Ulke": {
+          "selected": true
+        },
+        "Il": {
+          "selected": true
+        },
+        "Ilce": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Adres": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "VergiDairesi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "VergiNo": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariGrupKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKod5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariGrupAdi": {
+          "selected": true
+        },
+        "rCariKodAdi1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rCariKodAdi5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rPlasiyerKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rPlasiyerAdi": {
+          "selected": true
+        },
+        "rPlasiyerKoduAdi": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "ProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        }
+      },
+      "instructions": "Customer/supplier ledger (cari hareket). Single table (no archive).\nMETRIC:\n- Net bakiye (balance) = SUM(ISNULL(BorcTL,0)) - SUM(ISNULL(AlacakTL,0)), grouped by CariKod.\n  Total borç (receivable) bakiyesi: SELECT SUM(s) FROM (… GROUP BY CariKod) q WHERE s>0.\n  Total alacak (payable) bakiyesi: same with WHERE s<0 (often reported as ABS).\n- Toplam borç hareketi -> SUM(ISNULL(BorcTL,0));  toplam alacak -> SUM(ISNULL(AlacakTL,0)).\nDIMENSIONS:\n- CariKod (e.g. N'120-01-00277'); CariIsim / CariKoduAdi (use LIKE N'%name%').\n- HareketTuru: movement type, e.g. N'B-Fatura', N'C-IadeFatura', N'D-Kasa',\n  N'E-MusteriSenedi', N'G-MusteriCeki', N'H-BorcCeki'.\n- Tarih / VadeTarihi: transaction / due date.  KurCinsi: currency.\n- \"Cari sayısı\" / \"müşteri sayısı\" = COUNT(DISTINCT CariKod) with NO filter on rCariTip; \"cari\" covers all counterparties (buyers AND suppliers).\n- Only filter by rCariTip when the question explicitly asks for a specific type (e.g. only alıcı or only satıcı).\n- COUNT: \"cari/müşteri sayısı\" (number of customers) = COUNT(DISTINCT CariKod) over the whole table, NO rCariTip filter."
+    },
+    "dbo.zkbi_tUretimIsEmri": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "IsemriNo": {
+          "selected": true
+        },
+        "IsemriTarih": {
+          "selected": true
+        },
+        "MamulKodu": {
+          "selected": true
+        },
+        "MamulAdi": {
+          "selected": true
+        },
+        "Yapılandırma": {
+          "selected": true
+        },
+        "IsemriMiktar": {
+          "selected": true
+        },
+        "IsemriAciklama": {
+          "selected": true
+        },
+        "SiparisNo": {
+          "selected": true
+        },
+        "CariKodu": {
+          "selected": true
+        },
+        "CariUnvani": {
+          "selected": true
+        },
+        "SiparisTeslimTarihi": {
+          "selected": true
+        },
+        "SiparisSiraNo": {
+          "selected": true
+        },
+        "USK_Son_Durum": {
+          "selected": true
+        },
+        "UretimMiktari": {
+          "selected": true
+        },
+        "KalanUretimMiktari": {
+          "selected": true
+        },
+        "USK_Fis_Numaralari": {
+          "selected": true
+        },
+        "TransferMiktari": {
+          "selected": true
+        },
+        "SevkiyatMiktari": {
+          "selected": true
+        },
+        "SevkiyataKacGunKaldi": {
+          "selected": true
+        }
+      },
+      "instructions": "Production work-order fact (iş emri). Single table.\nMETRIC:\n- Toplam iş emri miktarı  -> SUM(ISNULL(IsemriMiktar,0)).\n- Üretilen miktar         -> SUM(ISNULL(UretimMiktari,0)).\n- Kalan (remaining)       -> SUM(ISNULL(KalanUretimMiktari,0)).\nDIMENSIONS:\n- USK_Son_Durum: status N'Yeni' | N'Devam' | N'Tamamlandi'.\n- MamulKodu / MamulAdi: produced item.  IsemriNo / IsemriTarih: work order no/date.\n- CariUnvani: customer.  SiparisNo: order no.\n- 'Açık iş emri' (open work order) = USK_Son_Durum = N'Devam' (not N'Acik').\n- 'Kapanmış iş emri' (closed work order) = USK_Son_Durum = N'Tamamlandi'.\nSTATUS MAPPING: USK_Son_Durum values are N'Yeni' (new), N'Devam' (in-progress), N'Tamamlandi' (done). \"Açık iş emri\" (OPEN work orders) = USK_Son_Durum=N'Devam' ONLY (not Yeni). \"Tamamlanan\" = N'Tamamlandi'.\nNAME FORMAT: mamul dimension specs are stored with a COLON and ASCII, e.g. '40 LIK DIKME FLANSI TIRNAKSIZ DIS CAP:50' (question may write it '(DIŞ ÇAP 50)'). Use LIKE N'%DIS CAP:50%' for such specs."
+    },
+    "dbo.zkbi_tFinansKiymetliEvrak": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "EvrakTuru": {
+          "selected": true
+        },
+        "SiraNo": {
+          "selected": true
+        },
+        "ABordroNo": {
+          "selected": true
+        },
+        "zGirisTarihi": {
+          "selected": true
+        },
+        "VBordroNo": {
+          "selected": true
+        },
+        "zCikisTarihi": {
+          "selected": true
+        },
+        "zVadeTarihi": {
+          "selected": true
+        },
+        "zOdemeTarihi": {
+          "selected": true
+        },
+        "VerenCariKodu": {
+          "selected": true
+        },
+        "VerenCariUnvan": {
+          "selected": true
+        },
+        "TutarTRY": {
+          "selected": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "Doviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "Durumu": {
+          "selected": true
+        },
+        "YerKodu": {
+          "selected": true
+        },
+        "Yeri": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "VerilenKodu": {
+          "selected": true
+        },
+        "VerilenYerAdi": {
+          "selected": true
+        },
+        "SeriNo": {
+          "selected": true
+        },
+        "AsilCiro": {
+          "selected": true
+        },
+        "AsilBorcluCariUnvan": {
+          "selected": true
+        },
+        "BankaAdi": {
+          "selected": true
+        },
+        "Subesi": {
+          "selected": true
+        },
+        "Il": {
+          "selected": true
+        },
+        "Ilce": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "HesapNo": {
+          "selected": true
+        },
+        "IBAN": {
+          "selected": true
+        },
+        "zVadeKalanGun": {
+          "selected": true
+        },
+        "PlasiyerKodu": {
+          "selected": true
+        },
+        "ProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        }
+      },
+      "instructions": "Negotiable instruments (kıymetli evrak: çek/senet). Single table.\nMETRIC: SUM(ISNULL(TutarTRY,0))  (TRY value).\nFILTERS:\n- EvrakTuru: N'1.(-) Borc Cekleri' | N'2.(-) Borc Senetleri' | N'3.(+) Musteri Cekleri'\n  | N'4.(+) Musteri Senetleri'.  (+) = portfolio receivable, (-) = payable.\n- Durumu: status N'Beklemede' (pending/portfolio) | N'Odenmis' (paid/cleared).\n- \"Portföydeki / bekleyen müşteri çekleri\" = EvrakTuru=N'3.(+) Musteri Cekleri' AND Durumu=N'Beklemede'.\n- BankaAdi, VerenCariUnvan, Kur/KurCinsi, zGirisTarihi available as dimensions.\n- Always filter EvrakTuru with exact enum (= N'3.(+) Musteri Cekleri'), never LIKE.\n- \"Payı / yüzdesi / oranı\" within kıymetli evrak: denominator = SUM(TutarTRY) WHERE Durumu=N'Beklemede' (all pending instruments), numerator = the requested subset also with Durumu=N'Beklemede'."
+    },
+    "dbo.zkbi_tFinansKeMusteriCeki": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "EvrakTuru": {
+          "selected": true
+        },
+        "SiraNo": {
+          "selected": true
+        },
+        "ABordroNo": {
+          "selected": true
+        },
+        "zGirisTarihi": {
+          "selected": true
+        },
+        "VBordroNo": {
+          "selected": true
+        },
+        "zCikisTarihi": {
+          "selected": true
+        },
+        "zVadeTarihi": {
+          "selected": true
+        },
+        "zOdemeTarihi": {
+          "selected": true
+        },
+        "VerenCariKodu": {
+          "selected": true
+        },
+        "VerenCariUnvan": {
+          "selected": true
+        },
+        "TutarTRY": {
+          "selected": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "Doviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "Durumu": {
+          "selected": true
+        },
+        "YerKodu": {
+          "selected": true
+        },
+        "Yeri": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "VerilenKodu": {
+          "selected": true
+        },
+        "VerilenYerAdi": {
+          "selected": true
+        },
+        "SeriNo": {
+          "selected": true
+        },
+        "AsilCiro": {
+          "selected": true
+        },
+        "AsilBorcluCariUnvan": {
+          "selected": true
+        },
+        "Bankasi": {
+          "selected": true
+        },
+        "Subesi": {
+          "selected": true
+        },
+        "Il": {
+          "selected": true
+        },
+        "Ilce": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "HesapNo": {
+          "selected": true
+        },
+        "IBAN": {
+          "selected": true
+        },
+        "zVadeKalanGun": {
+          "selected": true
+        },
+        "PlasiyerKodu": {
+          "selected": true
+        },
+        "ProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        }
+      }
+    },
+    "dbo.zkbi_tFinansKeMusteriSenedi": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "EvrakTuru": {
+          "selected": true
+        },
+        "SiraNo": {
+          "selected": true
+        },
+        "ABordroNo": {
+          "selected": true
+        },
+        "zGirisTarihi": {
+          "selected": true
+        },
+        "VBordroNo": {
+          "selected": true
+        },
+        "zCikisTarihi": {
+          "selected": true
+        },
+        "zVadeTarihi": {
+          "selected": true
+        },
+        "zOdemeTarihi": {
+          "selected": true
+        },
+        "VerenCariKodu": {
+          "selected": true
+        },
+        "VerenCariUnvan": {
+          "selected": true
+        },
+        "TutarTRY": {
+          "selected": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "Doviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "Durumu": {
+          "selected": true
+        },
+        "YerKodu": {
+          "selected": true
+        },
+        "Yeri": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "VerilenKodu": {
+          "selected": true
+        },
+        "VerilenYerAdi": {
+          "selected": true
+        },
+        "SeriNo": {
+          "selected": true
+        },
+        "AsilCiro": {
+          "selected": true
+        },
+        "AsilBorcluCariUnvan": {
+          "selected": true
+        },
+        "DuzenlendigiYer": {
+          "selected": true
+        },
+        "SenedinSubesi": {
+          "selected": true
+        },
+        "Il": {
+          "selected": true
+        },
+        "Ilce": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "HesapNo": {
+          "selected": true
+        },
+        "IBAN": {
+          "selected": true
+        },
+        "zVadeKalanGun": {
+          "selected": true
+        },
+        "PlasiyerKodu": {
+          "selected": true
+        },
+        "ProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        }
+      }
+    },
+    "dbo.zkbi_tFinansKeBorcCeki": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "EvrakTuru": {
+          "selected": true
+        },
+        "SiraNo": {
+          "selected": true
+        },
+        "ABordroNo": {
+          "selected": true
+        },
+        "zGirisTarihi": {
+          "selected": true
+        },
+        "VBordroNo": {
+          "selected": true
+        },
+        "zCikisTarihi": {
+          "selected": true
+        },
+        "zVadeTarihi": {
+          "selected": true
+        },
+        "zOdemeTarihi": {
+          "selected": true
+        },
+        "VerenCariKodu": {
+          "selected": true
+        },
+        "VerenCariUnvan": {
+          "selected": true
+        },
+        "TutarTRY": {
+          "selected": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "Doviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "Durumu": {
+          "selected": true
+        },
+        "YerKodu": {
+          "selected": true
+        },
+        "Yeri": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "VerilenKodu": {
+          "selected": true
+        },
+        "VerilenYerAdi": {
+          "selected": true
+        },
+        "SeriNo": {
+          "selected": true
+        },
+        "AsilCiro": {
+          "selected": true
+        },
+        "AsilBorcluCariUnvan": {
+          "selected": true
+        },
+        "BankaAdi": {
+          "selected": true
+        },
+        "Subesi": {
+          "selected": true
+        },
+        "Il": {
+          "selected": true
+        },
+        "Ilce": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "HesapNo": {
+          "selected": true
+        },
+        "IBAN": {
+          "selected": true
+        },
+        "zVadeKalanGun": {
+          "selected": true
+        },
+        "PlasiyerKodu": {
+          "selected": true
+        },
+        "ProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        }
+      }
+    },
+    "dbo.zkbi_tFinansKeBorcSenedi": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "EvrakTuru": {
+          "selected": true
+        },
+        "SiraNo": {
+          "selected": true
+        },
+        "ABordroNo": {
+          "selected": true
+        },
+        "zGirisTarihi": {
+          "selected": true
+        },
+        "VBordroNo": {
+          "selected": true
+        },
+        "zCikisTarihi": {
+          "selected": true
+        },
+        "zVadeTarihi": {
+          "selected": true
+        },
+        "zOdemeTarihi": {
+          "selected": true
+        },
+        "VerenCariKodu": {
+          "selected": true
+        },
+        "VerenCariUnvan": {
+          "selected": true
+        },
+        "TutarTRY": {
+          "selected": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "Doviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "Durumu": {
+          "selected": true
+        },
+        "YerKodu": {
+          "selected": true
+        },
+        "Yeri": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "VerilenKodu": {
+          "selected": true
+        },
+        "VerilenYerAdi": {
+          "selected": true
+        },
+        "SeriNo": {
+          "selected": true
+        },
+        "AsilCiro": {
+          "selected": true
+        },
+        "AsilBorcluCariUnvan": {
+          "selected": true
+        },
+        "DuzenlendigiYer": {
+          "selected": true
+        },
+        "SenedinSubesi": {
+          "selected": true
+        },
+        "Il": {
+          "selected": true
+        },
+        "Ilce": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "HesapNo": {
+          "selected": true
+        },
+        "IBAN": {
+          "selected": true
+        },
+        "zVadeKalanGun": {
+          "selected": true
+        },
+        "PlasiyerKodu": {
+          "selected": true
+        },
+        "ProjeKodu": {
+          "selected": true,
+          "is_hidden": true
+        }
+      }
+    },
+    "dbo.zkbi_tStokDepoBakiye": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "DepoKodu": {
+          "selected": true
+        },
+        "DepoAdi": {
+          "selected": true
+        },
+        "StokKodu": {
+          "selected": true
+        },
+        "StokAdi": {
+          "selected": true
+        },
+        "Birim": {
+          "selected": true
+        },
+        "sStokKoduAdBr": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "GirisMiktari": {
+          "selected": true
+        },
+        "GirisTutari": {
+          "selected": true
+        },
+        "CikisMiktari": {
+          "selected": true
+        },
+        "CikisTutari": {
+          "selected": true
+        },
+        "BakiyeMiktari": {
+          "selected": true
+        },
+        "SonGirisNetFiyat": {
+          "selected": true
+        },
+        "AlisFiyati": {
+          "selected": true
+        },
+        "BakiyeTutariSGNF": {
+          "selected": true
+        },
+        "BakiyeTutariSAF": {
+          "selected": true
+        },
+        "rStokGrupKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokGrupAdi": {
+          "selected": true
+        },
+        "rStokKodAdi1": {
+          "selected": true
+        },
+        "rStokKodAdi2": {
+          "selected": true
+        },
+        "rStokKodAdi3": {
+          "selected": true
+        },
+        "rStokKodAdi4": {
+          "selected": true
+        },
+        "rStokKodAdi5": {
+          "selected": true,
+          "is_hidden": true
+        }
+      },
+      "instructions": "Warehouse stock BALANCE snapshot (current, not date-filterable). Single table.\nMETRIC:\n- Bakiye miktarı -> SUM(ISNULL(BakiyeMiktari,0)).\n- Bakiye tutarı (SAF maliyet) -> SUM(ISNULL(BakiyeTutariSAF,0)).\nUse this for \"current/snapshot stock balance\"; use zkbi_tStokDepo when the question\nspecifies a date/period. DIMENSIONS: DepoAdi (N'GENEL DEPO'), rStokGrupAdi, StokAdi, Birim."
+    },
+    "dbo.zkbi_tStokDepo": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "zTarih": {
+          "selected": true
+        },
+        "BelgeNo": {
+          "selected": true
+        },
+        "StokKodu": {
+          "selected": true
+        },
+        "StokAdi": {
+          "selected": true
+        },
+        "Birim": {
+          "selected": true
+        },
+        "DepoKodu": {
+          "selected": true
+        },
+        "DepoAdi": {
+          "selected": true
+        },
+        "GirisMiktari": {
+          "selected": true
+        },
+        "GirisTutari": {
+          "selected": true
+        },
+        "CikisMiktari": {
+          "selected": true
+        },
+        "CikisTutari": {
+          "selected": true
+        },
+        "CikisTutariMaliyet": {
+          "selected": true
+        },
+        "NetFiyat": {
+          "selected": true
+        },
+        "SGNF": {
+          "selected": true
+        },
+        "SAF": {
+          "selected": true
+        },
+        "KalanMiktar": {
+          "selected": true
+        },
+        "KalanMiktarSGNF": {
+          "selected": true
+        },
+        "KalanMiktarSAF": {
+          "selected": true
+        },
+        "rStokGrupKodu": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod1": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod2": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod3": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod4": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokKod5": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "rStokGrupAdi": {
+          "selected": true
+        },
+        "rStokKodAdi1": {
+          "selected": true
+        },
+        "rStokKodAdi2": {
+          "selected": true
+        },
+        "rStokKodAdi3": {
+          "selected": true
+        },
+        "rStokKodAdi4": {
+          "selected": true
+        },
+        "rStokKodAdi5": {
+          "selected": true,
+          "is_hidden": true
+        }
+      },
+      "instructions": "Warehouse stock MOVEMENTS (depo hareket), date-filterable. Single table.\nMETRIC:\n- Net stok miktarı = SUM(ISNULL(GirisMiktari,0)) - SUM(ISNULL(CikisMiktari,0)).\n- Net stok tutarı  = SUM(ISNULL(GirisTutari,0)) - SUM(ISNULL(CikisTutari,0)).\n- Değerli stok (SAF cost) = SUM(ISNULL(SAF,0)*(ISNULL(GirisMiktari,0)-ISNULL(CikisMiktari,0))).\n- Balance \"as of a date\": add WHERE zTarih<='YYYY-MM-DD' (movements up to the cutoff).\nDIMENSIONS: StokAdi, Birim, DepoKodu/DepoAdi, rStokGrupAdi (N'MAMÜL',N'TICARI MAL'), Sirket."
+    },
+    "dbo.zkbi_tFinansKasa": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "Tarih": {
+          "selected": true
+        },
+        "BelgeNo": {
+          "selected": true
+        },
+        "KasaKodu": {
+          "selected": true
+        },
+        "KasaAdi": {
+          "selected": true
+        },
+        "KasaKoduAdi": {
+          "selected": true
+        },
+        "GirisCikis": {
+          "selected": true
+        },
+        "Tip": {
+          "selected": true
+        },
+        "HesapKodu": {
+          "selected": true
+        },
+        "HesapAdi": {
+          "selected": true
+        },
+        "Aciklama": {
+          "selected": true
+        },
+        "TutarTRY": {
+          "selected": true
+        },
+        "Kur": {
+          "selected": true
+        },
+        "Doviz": {
+          "selected": true
+        },
+        "KurCinsi": {
+          "selected": true
+        },
+        "PlasiyerKodu": {
+          "selected": true
+        },
+        "PlasiyerAdi": {
+          "selected": true
+        },
+        "KdvOrani": {
+          "selected": true
+        }
+      },
+      "instructions": "Cash register ledger (kasa). Single table.\nMETRIC: SUM(ISNULL(TutarTRY,0))  (kasa bakiyesi / TRY).\nFILTERS: KasaKoduAdi/KasaAdi (LIKE N'%MERKEZ KASA%'), Tip (e.g. N'A-Devir'),\nGirisCikis, Tarih, KurCinsi, HesapAdi, PlasiyerAdi."
+    },
+    "dbo.zkbi_tNakitAkim": {
+      "selected": true,
+      "columns": {
+        "Sirket": {
+          "selected": true
+        },
+        "Sube": {
+          "selected": true,
+          "is_hidden": true
+        },
+        "TUR": {
+          "selected": true
+        },
+        "TIP": {
+          "selected": true
+        },
+        "BankaAdi": {
+          "selected": true
+        },
+        "BelgeNo": {
+          "selected": true
+        },
+        "TARIH": {
+          "selected": true
+        },
+        "TUTAR": {
+          "selected": true
+        },
+        "CariIsim": {
+          "selected": true
+        }
+      },
+      "instructions": "Cash-flow fact (nakit akım). Single table.\nMETRIC: SUM(ISNULL(TUTAR,0)).\nFILTERS:\n- TIP: N'GELIR' (inflow) | N'GIDER' (outflow).\n- TUR: category N'CEK' | N'FATURA' | N'MAAS' | N'SIGORTA' | N'VERGI'.\n- Sirket, BankaAdi, BelgeNo, TARIH as dimensions.\n- 'Durum sayfası' (status page) → filter TUR = N'CEK'.\n- When a question references a page/screen name, map it to the corresponding TUR value, not to date filters."
+    },
+    "dbo.zkbi_tDovizKurlari": {
+      "selected": true,
+      "columns": {
+        "Tarih": {
+          "selected": true
+        },
+        "Kod": {
+          "selected": true
+        },
+        "DovizAlis": {
+          "selected": true
+        },
+        "DovizSatis": {
+          "selected": true
+        },
+        "DovizEfektifAlis": {
+          "selected": true
+        },
+        "DovizEfektifSatis": {
+          "selected": true
+        }
+      },
+      "instructions": "Exchange-rate fact. Kod (joins to zkbi_tDovizCinsi.Kod), rate columns, date. Use for\ncurrency-conversion questions."
+    },
+    "dbo.zkbi_tDovizCinsi": {
+      "selected": true,
+      "columns": {
+        "Kod": {
+          "selected": true
+        },
+        "DovizCinsi": {
+          "selected": true
+        }
+      },
+      "instructions": "Currency dimension. DovizCinsi (TRY/USD/EUR), Kod, Adi. Join target for currency lookups."
+    },
+    "_connection_meta": {
+      "instructions": "=== CONNECTION INSTRUCTIONS ===\n[ENRICHMENT ONLY]\nThis is the AKOS ERP analytics model (Turkish manufacturing). Every fact table is\na flattened \"zkbi_\" view. Pick the FEWEST tables that answer the question — usually\nONE fact table. Route by the business domain of the question:\n\nTABLE ROUTING (question intent -> table):\n- Satış / sales / ciro / satış tutarı / satış miktarı / müşteriye satış / ülke-il bazlı satış,\n  AND Alış / satınalma / purchase / tedarikçiden alış:\n    -> zkbi_tStokCariAnaliz  (+ zkbi_tStokCariAnaliz_Arsiv, ALWAYS UNION both)\n- Cari hareket / borç / alacak / bakiye / receivable / payable / cari ekstre / tahsilat:\n    -> zkbi_tFinansCari\n- Muhasebe / gider / gelir / bilanço / mali tablo / hesap / P&L / maliyet hesabı (7) / kâr:\n    -> zkbi_tMuhasebe  (+ zkbi_tMuhasebe_Arsiv, ALWAYS UNION both)\n- Üretim / iş emri / mamul / üretim miktarı / kalan üretim:\n    -> zkbi_tUretimIsEmri\n- Kıymetli evrak / çek / senet / portföy / müşteri çeki / borç çeki / bekleyen evrak:\n    -> zkbi_tFinansKiymetliEvrak\n- Nakit akım / cash flow / gelir-gider akışı / vergi / maaş / sigorta ödemesi:\n    -> zkbi_tNakitAkim\n- Stok / depo / stok bakiye / depo miktarı / stok devir / giriş-çıkış:\n    -> zkbi_tStokDepo (movements, date-filterable) or zkbi_tStokDepoBakiye (snapshot balance)\n- Kasa / kasa bakiyesi / nakit kasa / merkez kasa:\n    -> zkbi_tFinansKasa\n- Döviz / kur / exchange rate:  -> zkbi_tDovizKurlari, zkbi_tDovizCinsi\n\nROUTING HINTS (pick the RIGHT table, not more):\n- \"satış\" and \"alış\" use the SAME table (zkbi_tStokCariAnaliz); they differ ONLY by\n  the sGirisCikis filter ('2'=satış, '1'=alış). Do NOT add other tables.\n- TL amount vs döviz/USD amount: if the question says \"USD\"/\"dolar\"/\"döviz\" use the\n  *Doviz amount column; otherwise use the TL amount column.\n- Bakiye (balance) questions on cari = net of Borç-Alacak grouped by CariKod, then\n  filter (>0 = borç/receivable, <0 = alacak/payable). Do NOT just SUM one column.\n\nROUTING PRIORITY — METRIC NOUN WINS over topic/scene prefixes:\nA question may open with a topic/page name that does NOT decide the table. Route by\nthe METRIC NOUN (the quantity actually asked for), which is usually the LAST noun\nphrase before \"nedir/kaç/toplam\". Ignore leading scene-setters like \"Nakit akımdaki…\",\n\"Durum sayfasındaki…\", \"… raporundaki…\".\n  - \"...CARI BAKIYESI / borç bakiyesi / alacak bakiyesi\"  -> zkbi_tFinansCari\n    (net BorcTL-AlacakTL grouped by CariKod; borç = s>0, alacak = ABS of s<0),\n    EVEN IF the question starts with \"Nakit akım...\" or similar.\n  - \"...STOK tutarı / stok değeri / stok bakiyesi\"  -> zkbi_tStokDepo / zkbi_tStokDepoBakiye,\n    EVEN IF prefixed by \"nakit akım\" etc. (\"stok değeri\" = SUM(SAF*(Giris-Cikis))).\n  - \"...çek / senet\" as the metric  -> zkbi_tFinansKiymetliEvrak; but a \"çek\n    GELIR/GIDER\" cash-flow amount or \"gelir-gider farkı\" -> zkbi_tNakitAkim\n    (TUR=N'CEK', TIP=N'GELIR'/N'GIDER'; a \"fark\" = GELIR minus GIDER).\n  - Only route to zkbi_tNakitAkim when the MEASURED quantity itself is a cash-flow\n    line (TUTAR by TIP/TUR) — not merely because \"nakit akım\" appears as context.\n[/ENRICHMENT ONLY]\n[SQL GEN]\nGLOBAL SQL RULES (MSSQL / T-SQL):\n- Tables that have an \"_Arsiv\" twin (zkbi_tStokCariAnaliz, zkbi_tMuhasebe) hold only\n  recent rows; full history = current UNION ALL archive. ALWAYS wrap as:\n    FROM (SELECT ... FROM dbo.<tbl> UNION ALL SELECT ... FROM dbo.<tbl>_Arsiv) t\n  (select the same explicit column list on both sides; do NOT use SELECT * if the\n  twins have different column counts).\n- Wrap every summed numeric in ISNULL(col,0) so NULLs don't void the SUM.\n- Date filters use the zTarih column (datetime). Year: YEAR(zTarih)=2025; month:\n  MONTH(zTarih)=1; range: YEAR(zTarih) BETWEEN 2023 AND 2025; cutoff: zTarih<='2026-06-12'.\n- TURKISH-CHARACTER TEXT (verified against the data; folding is INCONSISTENT, so match loosely):\n    * The dotted/dotless I (İ, ı) is USUALLY stored as plain ASCII I (e.g. 'BASLIK', 'TICARI', 'TÜRKIYE'). Fold İ/ı -> I in your literal.\n    * The OTHER Turkish letters Ç Ş Ğ Ü Ö are OFTEN PRESERVED — especially in HesapAdi, sCariIsim, CariIsim, rStokGrupAdi (e.g. 'MAMÜL', 'YARI MAMÜL'), and sUlke (e.g. 'GÜRCISTAN'). Keep them as-is.\n    * MamulAdi / sStokAdi are MOSTLY folded to pure ASCII (e.g. 'BASLIK SAPKALI', 'HIZMET STOGU'), but a few rows keep Ç/Ş — so prefer LIKE over exact equality.\n    * WHEN UNSURE, do NOT use exact equality on a Turkish name. Use LIKE N'%<distinctive ASCII-core fragment>%' (fold the I's, drop the uncertain Ç/Ş/Ğ/Ü/Ö from the fragment) so the row matches regardless of how it was folded.\n    * Specific verified values: country = sUlke LIKE N'%TÜRK%' (Ü kept, İ->I; NOT 'TURKIYE'); stock groups use 'MAMÜL'/'TICARI MAL'/'HURDA-ATIK'/'YARI MAMÜL'.\n- Return a single scalar aliased AS t for \"toplam/total\" questions:\n    SELECT SUM(ISNULL(<amount>,0)) AS t FROM ...\n- Match the test's RESULT (the number), not its exact SQL text.\n- DATA SPANS 2020-2026. When the question NAMES a year or range (e.g. '2024', '2023-2025 dönemi'), APPLY the filter (YEAR(zTarih)=2024 or YEAR(zTarih) BETWEEN 2023 AND 2025). When it names no period, sum all rows.\n- TOTAL/SUM questions: write the aggregation DIRECTLY in ONE query (SELECT SUM(<metric>) ... WHERE <filters>). Do NOT first run an exploratory SELECT of dimension columns (rStokKodAdi*, names) to 'look at the data' — the amount columns (e.g. sNetTutar, NetTutarDoviz, TUTAR, Borc/Alacak) EXIST in the schema even if a probe query didn't select them. A dimension-only result is NOT evidence that the metric is missing.\n[/SQL GEN]"
+    }
+  },
+  "connection_config": null,
+  "joins_data": [
+    {
+      "id": 493,
+      "connection_id": 588,
+      "name": "DovizKurlari-DovizCinsi",
+      "description": "",
+      "source_table": "dbo.zkbi_tDovizKurlari",
+      "source_column": "Kod",
+      "target_table": "dbo.zkbi_tDovizCinsi",
+      "target_column": "Kod",
+      "join_type": "LEFT",
+      "cardinality": "MANY_TO_ONE",
+      "created_at": "2026-06-29T08:53:08.330407+00:00",
+      "updated_at": "2026-06-29T08:53:08.330407+00:00"
+    },
+    {
+      "id": 494,
+      "connection_id": 588,
+      "name": "StokCariAnaliz-DovizCinsi",
+      "description": "",
+      "source_table": "dbo.zkbi_tStokCariAnaliz",
+      "source_column": "KurCinsi",
+      "target_table": "dbo.zkbi_tDovizCinsi",
+      "target_column": "DovizCinsi",
+      "join_type": "LEFT",
+      "cardinality": "MANY_TO_ONE",
+      "created_at": "2026-06-29T08:53:08.330407+00:00",
+      "updated_at": "2026-06-29T08:53:08.330407+00:00"
+    },
+    {
+      "id": 495,
+      "connection_id": 588,
+      "name": "FinansCari-DovizCinsi",
+      "description": "",
+      "source_table": "dbo.zkbi_tFinansCari",
+      "source_column": "KurCinsi",
+      "target_table": "dbo.zkbi_tDovizCinsi",
+      "target_column": "DovizCinsi",
+      "join_type": "LEFT",
+      "cardinality": "MANY_TO_ONE",
+      "created_at": "2026-06-29T08:53:08.330407+00:00",
+      "updated_at": "2026-06-29T08:53:08.330407+00:00"
+    },
+    {
+      "id": 496,
+      "connection_id": 588,
+      "name": "StokDepo-StokDepoBakiye",
+      "description": "",
+      "source_table": "dbo.zkbi_tStokDepo",
+      "source_column": "StokKodu",
+      "target_table": "dbo.zkbi_tStokDepoBakiye",
+      "target_column": "StokKodu",
+      "join_type": "LEFT",
+      "cardinality": "MANY_TO_ONE",
+      "created_at": "2026-06-29T08:53:08.330407+00:00",
+      "updated_at": "2026-06-29T08:53:08.330407+00:00"
+    },
+    {
+      "id": 497,
+      "connection_id": 588,
+      "name": "Muhasebe-DovizCinsi",
+      "description": "",
+      "source_table": "dbo.zkbi_tMuhasebe",
+      "source_column": "KurCinsi",
+      "target_table": "dbo.zkbi_tDovizCinsi",
+      "target_column": "DovizCinsi",
+      "join_type": "LEFT",
+      "cardinality": "MANY_TO_ONE",
+      "created_at": "2026-06-29T08:53:08.330407+00:00",
+      "updated_at": "2026-06-29T08:53:08.330407+00:00"
+    }
+  ],
+  "instructions": "=== CONNECTION INSTRUCTIONS ===\n[ENRICHMENT ONLY]\nThis is the AKOS ERP analytics model (Turkish manufacturing). Every fact table is\na flattened \"zkbi_\" view. Pick the FEWEST tables that answer the question — usually\nONE fact table. Route by the business domain of the question:\n\nTABLE ROUTING (question intent -> table):\n- Satış / sales / ciro / satış tutarı / satış miktarı / müşteriye satış / ülke-il bazlı satış,\n  AND Alış / satınalma / purchase / tedarikçiden alış:\n    -> zkbi_tStokCariAnaliz  (+ zkbi_tStokCariAnaliz_Arsiv, ALWAYS UNION both)\n- Cari hareket / borç / alacak / bakiye / receivable / payable / cari ekstre / tahsilat:\n    -> zkbi_tFinansCari\n- Muhasebe / gider / gelir / bilanço / mali tablo / hesap / P&L / maliyet hesabı (7) / kâr:\n    -> zkbi_tMuhasebe  (+ zkbi_tMuhasebe_Arsiv, ALWAYS UNION both)\n- Üretim / iş emri / mamul / üretim miktarı / kalan üretim:\n    -> zkbi_tUretimIsEmri\n- Kıymetli evrak / çek / senet / portföy / müşteri çeki / borç çeki / bekleyen evrak:\n    -> zkbi_tFinansKiymetliEvrak\n- Nakit akım / cash flow / gelir-gider akışı / vergi / maaş / sigorta ödemesi:\n    -> zkbi_tNakitAkim\n- Stok / depo / stok bakiye / depo miktarı / stok devir / giriş-çıkış:\n    -> zkbi_tStokDepo (movements, date-filterable) or zkbi_tStokDepoBakiye (snapshot balance)\n- Kasa / kasa bakiyesi / nakit kasa / merkez kasa:\n    -> zkbi_tFinansKasa\n- Döviz / kur / exchange rate:  -> zkbi_tDovizKurlari, zkbi_tDovizCinsi\n\nROUTING HINTS (pick the RIGHT table, not more):\n- \"satış\" and \"alış\" use the SAME table (zkbi_tStokCariAnaliz); they differ ONLY by\n  the sGirisCikis filter ('2'=satış, '1'=alış). Do NOT add other tables.\n- TL amount vs döviz/USD amount: if the question says \"USD\"/\"dolar\"/\"döviz\" use the\n  *Doviz amount column; otherwise use the TL amount column.\n- Bakiye (balance) questions on cari = net of Borç-Alacak grouped by CariKod, then\n  filter (>0 = borç/receivable, <0 = alacak/payable). Do NOT just SUM one column.\n\nROUTING PRIORITY — METRIC NOUN WINS over topic/scene prefixes:\nA question may open with a topic/page name that does NOT decide the table. Route by\nthe METRIC NOUN (the quantity actually asked for), which is usually the LAST noun\nphrase before \"nedir/kaç/toplam\". Ignore leading scene-setters like \"Nakit akımdaki…\",\n\"Durum sayfasındaki…\", \"… raporundaki…\".\n  - \"...CARI BAKIYESI / borç bakiyesi / alacak bakiyesi\"  -> zkbi_tFinansCari\n    (net BorcTL-AlacakTL grouped by CariKod; borç = s>0, alacak = ABS of s<0),\n    EVEN IF the question starts with \"Nakit akım...\" or similar.\n  - \"...STOK tutarı / stok değeri / stok bakiyesi\"  -> zkbi_tStokDepo / zkbi_tStokDepoBakiye,\n    EVEN IF prefixed by \"nakit akım\" etc. (\"stok değeri\" = SUM(SAF*(Giris-Cikis))).\n  - \"...çek / senet\" as the metric  -> zkbi_tFinansKiymetliEvrak; but a \"çek\n    GELIR/GIDER\" cash-flow amount or \"gelir-gider farkı\" -> zkbi_tNakitAkim\n    (TUR=N'CEK', TIP=N'GELIR'/N'GIDER'; a \"fark\" = GELIR minus GIDER).\n  - Only route to zkbi_tNakitAkim when the MEASURED quantity itself is a cash-flow\n    line (TUTAR by TIP/TUR) — not merely because \"nakit akım\" appears as context.\n[/ENRICHMENT ONLY]\n[SQL GEN]\nGLOBAL SQL RULES (MSSQL / T-SQL):\n- Tables that have an \"_Arsiv\" twin (zkbi_tStokCariAnaliz, zkbi_tMuhasebe) hold only\n  recent rows; full history = current UNION ALL archive. ALWAYS wrap as:\n    FROM (SELECT ... FROM dbo.<tbl> UNION ALL SELECT ... FROM dbo.<tbl>_Arsiv) t\n  (select the same explicit column list on both sides; do NOT use SELECT * if the\n  twins have different column counts).\n- Wrap every summed numeric in ISNULL(col,0) so NULLs don't void the SUM.\n- Date filters use the zTarih column (datetime). Year: YEAR(zTarih)=2025; month:\n  MONTH(zTarih)=1; range: YEAR(zTarih) BETWEEN 2023 AND 2025; cutoff: zTarih<='2026-06-12'.\n- TURKISH-CHARACTER TEXT (verified against the data; folding is INCONSISTENT, so match loosely):\n    * The dotted/dotless I (İ, ı) is USUALLY stored as plain ASCII I (e.g. 'BASLIK', 'TICARI', 'TÜRKIYE'). Fold İ/ı -> I in your literal.\n    * The OTHER Turkish letters Ç Ş Ğ Ü Ö are OFTEN PRESERVED — especially in HesapAdi, sCariIsim, CariIsim, rStokGrupAdi (e.g. 'MAMÜL', 'YARI MAMÜL'), and sUlke (e.g. 'GÜRCISTAN'). Keep them as-is.\n    * MamulAdi / sStokAdi are MOSTLY folded to pure ASCII (e.g. 'BASLIK SAPKALI', 'HIZMET STOGU'), but a few rows keep Ç/Ş — so prefer LIKE over exact equality.\n    * WHEN UNSURE, do NOT use exact equality on a Turkish name. Use LIKE N'%<distinctive ASCII-core fragment>%' (fold the I's, drop the uncertain Ç/Ş/Ğ/Ü/Ö from the fragment) so the row matches regardless of how it was folded.\n    * Specific verified values: country = sUlke LIKE N'%TÜRK%' (Ü kept, İ->I; NOT 'TURKIYE'); stock groups use 'MAMÜL'/'TICARI MAL'/'HURDA-ATIK'/'YARI MAMÜL'.\n- Return a single scalar aliased AS t for \"toplam/total\" questions:\n    SELECT SUM(ISNULL(<amount>,0)) AS t FROM ...\n- Match the test's RESULT (the number), not its exact SQL text.\n- DATA SPANS 2020-2026. When the question NAMES a year or range (e.g. '2024', '2023-2025 dönemi'), APPLY the filter (YEAR(zTarih)=2024 or YEAR(zTarih) BETWEEN 2023 AND 2025). When it names no period, sum all rows.\n- TOTAL/SUM questions: write the aggregation DIRECTLY in ONE query (SELECT SUM(<metric>) ... WHERE <filters>). Do NOT first run an exploratory SELECT of dimension columns (rStokKodAdi*, names) to 'look at the data' — the amount columns (e.g. sNetTutar, NetTutarDoviz, TUTAR, Borc/Alacak) EXIST in the schema even if a probe query didn't select them. A dimension-only result is NOT evidence that the metric is missing.\n[/SQL GEN]",
+  "prompts_data": [],
+  "settings_data": {
+    "id": 1,
+    "decision_maker_model": "openrouter/z-ai/glm-5.2",
+    "enrichment_model": "openrouter/z-ai/glm-5.2",
+    "query_writer_model": "openrouter/z-ai/glm-5.2",
+    "visualizer_model": "openrouter/z-ai/glm-5.2",
+    "deep_search_model": "openrouter/z-ai/glm-5.2",
+    "regeneration_model": "openrouter/z-ai/glm-5.2",
+    "image_captioner_model": "gpt-4o-mini",
+    "prompt_optimizer_model": "openrouter/z-ai/glm-5.2",
+    "local_db_host": "postgres",
+    "local_db_port": 5432,
+    "local_db_name": "localdb",
+    "local_db_user": "admin",
+    "remote_db_host": "",
+    "remote_db_port": 5432,
+    "remote_db_name": "",
+    "remote_db_user": "",
+    "web_agent_enabled": true,
+    "mlflow_enabled": false,
+    "langsmith_tracing_enabled": false,
+    "sql_validation_enabled": false,
+    "web_search_provider": "openai",
+    "web_search_max_results": 5,
+    "document_ocr_strategy": "local",
+    "teams_webhook_url": "https://default7ab6ae5b654e4a40a56601a4e33c6c.79.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/54dbaac37eee42edaf664e797fc51e2c/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=XRAFqUNoZzvIcGAG20SCMUQfZu_vQN-q76j4548exBQ",
+    "extra_settings": {
+      "find_sql_chat_model": "z-ai/glm-5.2"
+    },
+    "openai_api_key_set": false,
+    "gemini_api_key_set": false,
+    "anthropic_api_key_set": false,
+    "xai_api_key_set": false,
+    "serpapi_key_set": false,
+    "langsmith_api_key_set": false,
+    "local_db_pass_set": true,
+    "remote_db_pass_set": false,
+    "google_vision_credentials_set": false
+  }
+}

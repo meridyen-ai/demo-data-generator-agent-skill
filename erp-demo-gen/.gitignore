@@ -1,0 +1,4 @@
+# Per-run working artifacts (specs, seeds, generated CSVs, load.sql). Regenerable.
+out/
+__pycache__/
+*.pyc

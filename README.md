@@ -1,74 +1,31 @@
-# erp-demo-gen
+# demo-data-generator agent skills
 
-A Claude Code **agent skill** that generates realistic, internally-consistent
-fictional **ERP-style Postgres databases** for demos and presales — fresh sample
-data to feed an LLM-driven data-analysis product.
+A collection of Claude Code **agent skills** for producing and configuring
+realistic fictional data for analytics demos and presales. Each subdirectory is a
+self-contained skill (its own `SKILL.md`, engine, and docs).
 
-You tell it an industry, a number of years, and a company size; it asks a couple
-of questions, then generates and loads a per-industry schema (15–26 tables) of
-sales, purchases, invoices, payments, returns, inventory, production, IoT, GL,
-and bank data into local Docker Postgres — and hands you a connection string.
+## Skills
 
-## How it works (hybrid generation)
+### [`erp-demo-gen/`](erp-demo-gen/)
+Generates realistic, internally-consistent fictional **ERP-style Postgres
+databases** (sales, purchases, invoices, payments, returns, inventory, production,
+IoT, GL, bank). Hybrid generation: the LLM authors qualitative seeds (names), a
+deterministic stdlib-only Python engine produces high-volume transactional rows
+with valid foreign keys, reconciling totals, YoY growth, and seasonality. Four
+industries (manufacturing, wholesale, retail, food & beverage); loads into local
+Docker Postgres via bulk `COPY`.
 
-- **LLM authors the seeds** — company identity, product names, customer/vendor
-  names, departments, work centers (the qualitative, on-industry content).
-- **A deterministic, stdlib-only Python engine** generates the high-volume
-  transactional rows with valid foreign keys, reconciling totals, YoY growth,
-  and seasonality. Seeded → fully reproducible; scales to millions of rows via
-  bulk `COPY`.
+### [`snapshot-builder/`](snapshot-builder/)
+Writes the best possible **"snapshot"** — the JSON config an analytics platform
+uses to make its LLM SQL query-writer accurate (selected tables/columns, joins, and
+rich per-table METRIC/DIMENSION/routing instructions). Connects to a database
+(default: the demo Postgres above), introspects it, fires **read-only** queries to
+learn real distinct values and verify every metric recipe, then emits a snapshot in
+the platform's exact format.
 
-No third-party Python packages and no host `psql` required — only **Docker** +
-**python3** (standard library). Loading goes through the Postgres container's own
-`COPY` (the `out/` dir is mounted into the container).
-
-## Industries
-
-Each auto-selects its own table set:
-
-| Industry        | Highlights                                              |
-|-----------------|---------------------------------------------------------|
-| `manufacturing` | BOMs, production orders, material consumption, machine IoT |
-| `wholesale`     | Multi-warehouse buy/resell, no production               |
-| `retail`        | Channels, promotions, high volume, near-immediate payment |
-| `food_beverage` | Recipes, lots with expiry, cold-chain IoT               |
-
-Plus analytics views: `v_monthly_sales`, `v_customer_revenue`,
-`v_product_profitability`, `v_ar_aging`, `v_inventory_valuation`,
-`v_production_summary`.
-
-## Usage
-
-This is a Claude Code skill — invoke it in conversation (e.g. *"generate a medium
-food & beverage company with 10 years of data"*). Under the hood:
-
-```bash
-# 1. derive the company profile + write a seeds template for the LLM to fill
-python3 engine/run.py plan  --spec out/<slug>/spec.json
-
-# 2. generate CSVs + load.sql, bring up Docker Postgres, load, validate
-python3 engine/run.py build --spec out/<slug>/spec.json --seeds out/<slug>/seeds.json
-```
-
-**Connection** (from host): `postgresql://demo:demo@localhost:5544/erp_<slug>`
-
-Each generated company is its own `erp_<slug>` database in the one container.
-
-## Layout
-
-```
-SKILL.md            orchestration instructions (skill entrypoint)
-docker-compose.yml  postgres:16 target (host port 5544)
-engine/             the generator: profile/sizing, catalog, ddl, generators,
-                    generate (CSV+SQL), load (docker+psql), validate, run (CLI)
-industries/<name>/  tables.json (table set) · tuning.json (ratios/seasonality) · notes.md
-memory/             user preferences + run/learning changelog
-```
-
-`industries/*/tuning.json` and `memory/` are the editable "learning" surface —
-adjust them to refine realism over time.
+Typical pairing: build a demo database with `erp-demo-gen`, then build its snapshot
+with `snapshot-builder`.
 
 ## Requirements
-
 - Docker + Docker Compose
-- Python 3 (standard library only)
+- Python 3 (standard library only — no third-party packages)

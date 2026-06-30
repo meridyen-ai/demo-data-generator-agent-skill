@@ -1,0 +1,17 @@
+{
+  "default": "demo",
+  "connections": {
+    "demo": {
+      "mode": "docker",
+      "container": "erp_demo_pg",
+      "host": "localhost",
+      "port": 5432,
+      "user": "demo",
+      "dbname": null,
+      "schema": "public",
+      "dialect": "postgres",
+      "pass_set": true,
+      "note": "Demo Postgres built by erp-demo-gen. dbname null = auto-detect erp_* database. Password is the well-known demo password."
+    }
+  }
+}
