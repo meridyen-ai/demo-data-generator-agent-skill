@@ -52,6 +52,19 @@ class CompanyProfile:
 
     tables: list = field(default_factory=list)
 
+    # Optional: an explicit per-year revenue curve (index 0 = oldest year). Real
+    # companies do not compound smoothly, so industries that care about a
+    # believable history author the ups and downs directly.
+    revenue_by_year: list = field(default_factory=list)
+    # Final year may be partial (data stops at end_month) so the newest year in
+    # the database is a year-to-date, like a live system would be.
+    end_month: int = 12
+
+    def revenue_for_year(self, year_index: int) -> float:
+        if self.revenue_by_year:
+            return float(self.revenue_by_year[year_index])
+        return self.year_revenue(year_index)
+
     def end_year(self) -> int:
         return self.start_year + self.years - 1
 
@@ -80,7 +93,9 @@ def build_profile(spec: dict, tuning: dict, tables: list) -> CompanyProfile:
     band = spec.get("size_band", "medium")
     band_rev, band_inv, band_emp = SIZE_BANDS.get(band, SIZE_BANDS["medium"])
 
-    annual_revenue = float(spec.get("annual_revenue") or band_rev)
+    revenue_by_year = list(spec.get("revenue_by_year") or [])
+    annual_revenue = float(spec.get("annual_revenue")
+                           or (revenue_by_year[-1] if revenue_by_year else band_rev))
     annual_invoices = int(spec.get("annual_invoices") or band_inv)
     employees = int(spec.get("employees") or band_emp)
 
@@ -88,6 +103,10 @@ def build_profile(spec: dict, tuning: dict, tables: list) -> CompanyProfile:
 
     years = int(spec.get("years", 5))
     end_year = int(spec.get("end_year", date.today().year))
+    end_month = int(spec.get("end_month", 12))
+    if revenue_by_year and len(revenue_by_year) != years:
+        raise SystemExit(
+            f"revenue_by_year has {len(revenue_by_year)} entries but years={years}")
     start_year = end_year - years + 1
 
     growth_rate = float(spec.get("growth_rate", tuning.get("growth_rate", 0.10)))
@@ -134,4 +153,6 @@ def build_profile(spec: dict, tuning: dict, tables: list) -> CompanyProfile:
         avg_order_value=avg_order_value,
         lines_per_order_mean=float(tuning.get("lines_per_order_mean", 3.0)),
         tables=tables,
+        revenue_by_year=revenue_by_year,
+        end_month=end_month,
     )

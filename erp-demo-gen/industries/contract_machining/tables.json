@@ -1,0 +1,26 @@
+{
+  "industry": "contract_machining",
+  "description": "Yüksek adetli talaşlı imalat / fason metal parça üretimi. OEM ve Tier-1 müşterilere seri üretim, yakın pazarlara ihracat, çok para birimli (TRY taban, EUR/USD) tam kapsamlı ERP.",
+  "ddl_extension": "mfg",
+  "include": [
+    "company", "currencies", "fx_rates", "tax_codes", "chart_of_accounts",
+    "expense_categories",
+    "departments", "employees", "customers", "vendors", "carriers", "warehouses",
+    "work_centers", "machines",
+    "products", "raw_materials", "price_list", "bom", "bom_lines", "routings",
+    "part_approvals",
+    "leads", "opportunities", "quotations", "quotation_lines", "crm_activities",
+    "sales_orders", "sales_order_lines", "invoices", "invoice_lines", "payments",
+    "returns",
+    "purchase_orders", "purchase_order_lines", "vendor_invoices", "vendor_payments",
+    "shipments", "shipment_lines", "customs_declarations",
+    "production_orders", "production_consumption", "production_operations",
+    "subcontract_operations", "quality_inspections", "nonconformances",
+    "maintenance_orders", "hse_incidents", "lots",
+    "payroll_runs", "payroll_items", "leave_records",
+    "fixed_assets", "depreciation_entries", "expenses", "budgets",
+    "stock_moves", "bank_transactions", "gl_entries", "iot_readings"
+  ],
+  "exclude": ["promotions", "machine_units", "refurbishment_jobs", "service_jobs",
+              "warranty_contracts"]
+}

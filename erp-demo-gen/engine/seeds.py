@@ -69,20 +69,38 @@ def template(profile, needs_raw: bool, needs_work_centers: bool) -> dict:
     return tpl
 
 
-def validate_and_fill(seeds: dict, profile, rng: Rng, needs_raw: bool, needs_work_centers: bool) -> dict:
-    out = {}
+# Sections an industry may add that the engine passes straight through to its
+# generator (machines, accessories, chart of accounts, expense catalogue, ...).
+PASSTHROUGH = [
+    "machines", "accessories", "warehouses", "vendors", "customers", "carriers",
+    "chart_of_accounts", "expense_categories", "fixed_assets", "notes",
+    # talaşlı imalat (contract_machining) bölümleri
+    "shop_machines", "operations", "defect_codes", "downtime_reasons",
+    "subcontract_processes", "customer_programs", "maintenance_types",
+    "tooling", "quality_characteristics", "hse_types", "packaging",
+    "routing_templates", "product_families",
+]
 
-    company = seeds.get("company") or {}
-    out["company"] = {
-        "name": company.get("name", profile.company_name),
-        "tagline": company.get("tagline", ""),
-        "hq_city": company.get("hq_city", "New York"),
-        "domain": company.get("domain", names.slug_domain(profile.company_name)),
-    }
+
+def validate_and_fill(seeds: dict, profile, rng: Rng, needs_raw: bool, needs_work_centers: bool,
+                      name_style: str = "us") -> dict:
+    out = {}
+    for key in PASSTHROUGH:
+        if key in seeds:
+            out[key] = seeds[key]
+
+    company = dict(seeds.get("company") or {})
+    company.setdefault("name", profile.company_name)
+    company.setdefault("tagline", "")
+    company.setdefault("hq_city", "New York")
+    company.setdefault("domain", names.slug_domain(profile.company_name))
+    out["company"] = company
 
     products = [p for p in seeds.get("products", []) if _real(p.get("name"))]
-    if not products:
-        raise SystemExit("seeds.json must contain a non-empty 'products' list.")
+    if not products and not (out.get("machines") or out.get("accessories")):
+        raise SystemExit(
+            "seeds.json must contain a non-empty 'products' list "
+            "(or 'machines'/'accessories' for industries that split the catalogue).")
     out["products"] = products
 
     if needs_raw:
@@ -101,16 +119,24 @@ def validate_and_fill(seeds: dict, profile, rng: Rng, needs_raw: bool, needs_wor
                    for i in range(profile.n_work_centers)]
         out["work_centers"] = wcs
 
-    depts = [d for d in seeds.get("departments", []) if _real(d)] or DEFAULT_DEPARTMENTS
+    # departments may be plain names or {name, cost_center, roles:[...]} objects
+    depts = [d for d in seeds.get("departments", [])
+             if _real(d.get("name") if isinstance(d, dict) else d)] or DEFAULT_DEPARTMENTS
     out["departments"] = depts
 
+    # the long tail of company names is synthesized in the right regional style
+    if name_style == "eu_tr":
+        from .locales import extend_company_names_intl as extend
+    elif name_style == "tr":
+        from .locales import extend_company_names_tr as extend
+    else:
+        extend = names.extend_company_names
+
     cust_seed = [c for c in seeds.get("customer_names", []) if _real(c)]
-    out["customer_names"] = names.extend_company_names(
-        rng.stream("cust_names"), cust_seed, profile.n_customers)
+    out["customer_names"] = extend(rng.stream("cust_names"), cust_seed, profile.n_customers)
 
     vend_seed = [v for v in seeds.get("vendor_names", []) if _real(v)]
-    out["vendor_names"] = names.extend_company_names(
-        rng.stream("vend_names"), vend_seed, profile.n_vendors)
+    out["vendor_names"] = extend(rng.stream("vend_names"), vend_seed, profile.n_vendors)
 
     return out
 

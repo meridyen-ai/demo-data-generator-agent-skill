@@ -1,0 +1,22 @@
+{
+  "industry": "machinery_dealer",
+  "description": "Used machine-tool dealer: buys second-hand CNC machines and lathes from auctions, liquidations and trade-ins, refurbishes them, and resells across Europe and Türkiye alongside a broad tooling/accessory catalogue. Serialized stock, multi-currency, full ERP back office.",
+  "include": [
+    "company", "currencies", "fx_rates", "tax_codes", "chart_of_accounts",
+    "expense_categories",
+    "departments", "employees", "customers", "vendors", "carriers", "warehouses",
+    "products", "machine_units", "refurbishment_jobs", "price_list",
+    "leads", "opportunities", "quotations", "quotation_lines", "crm_activities",
+    "sales_orders", "sales_order_lines", "invoices", "invoice_lines", "payments", "returns",
+    "purchase_orders", "purchase_order_lines", "vendor_invoices", "vendor_payments",
+    "shipments", "shipment_lines", "customs_declarations",
+    "service_jobs", "warranty_contracts",
+    "payroll_runs", "payroll_items", "leave_records",
+    "fixed_assets", "depreciation_entries", "expenses", "budgets",
+    "stock_moves", "bank_transactions", "gl_entries"
+  ],
+  "exclude": [
+    "work_centers", "raw_materials", "bom", "bom_lines", "production_orders",
+    "production_consumption", "lots", "promotions", "iot_readings"
+  ]
+}

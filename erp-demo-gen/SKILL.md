@@ -17,9 +17,21 @@ Skill directory (all paths below are relative to it):
 `.claude/skills/erp-demo-gen/`
 
 ## Supported industries
-`manufacturing`, `wholesale`, `retail`, `food_beverage` (aliases like "discrete
-manufacturing", "distribution", "e-commerce", "process manufacturing" resolve
-automatically). Each picks its own table set automatically.
+`manufacturing`, `wholesale`, `retail`, `food_beverage`, `machinery_dealer`,
+`contract_machining` (aliases like "discrete manufacturing", "distribution",
+"e-commerce", "process manufacturing", "talaşlı imalat", "precision machining"
+resolve automatically). Each picks its own table set automatically.
+
+Two industries carry a full multi-currency ERP back office (company, FX rates,
+chart of accounts, payroll, fixed assets, expenses, budgets, CRM, logistics,
+customs, GL) and their own generator + views + checks:
+
+* `machinery_dealer` — used machine-tool dealer, EUR base, serialized stock.
+* `contract_machining` — high-volume Turkish precision-machining subcontractor,
+  **TRY base with EUR/USD reporting on every document**, operation-level work
+  orders (routings, production_operations), subcontract processes, quality/NCR,
+  maintenance, OEE and HSE. Values are in Turkish; see
+  `industries/contract_machining/notes.md`.
 
 ## Workflow — follow these steps
 

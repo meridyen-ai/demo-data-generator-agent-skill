@@ -28,6 +28,15 @@ ALIASES = {
     "food and beverage": "food_beverage",
     "food_beverage": "food_beverage",
     "process manufacturing": "food_beverage",
+    "contract machining": "contract_machining",
+    "talasli imalat": "contract_machining",
+    "talaşlı imalat": "contract_machining",
+    "machining": "contract_machining",
+    "precision machining": "contract_machining",
+    "metal parts": "contract_machining",
+    "fason imalat": "contract_machining",
+    "automotive supplier": "contract_machining",
+    "machinery dealer": "machinery_dealer",
 }
 
 
@@ -53,6 +62,15 @@ def load_industry(industry: str):
         tables_cfg = json.load(f)
     with open(os.path.join(path, "tuning.json")) as f:
         tuning_cfg = json.load(f)
+
+    # Bazı sektörler çekirdek şemanın ötesinde tablo/kolon ister. Bu uzantılar
+    # yalnızca ilgili sektör seçildiğinde kurulur, böylece diğer sektörlerin
+    # şeması değişmeden kalır.
+    ext = tables_cfg.get("ddl_extension")
+    if ext == "mfg":
+        from . import ddl_mfg
+        ddl_mfg.install(ddl.TABLE_ORDER, ddl.COLUMNS, ddl.DDL, ddl.INDEXES)
+
     return industry, tables_cfg, tuning_cfg
 
 

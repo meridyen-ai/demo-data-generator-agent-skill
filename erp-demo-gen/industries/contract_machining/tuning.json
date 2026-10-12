@@ -1,0 +1,364 @@
+{
+  "company_name_style": "tr",
+  "base_currency": "TRY",
+  "trade_currencies": [
+    "EUR",
+    "USD",
+    "GBP"
+  ],
+  "reporting_currencies": [
+    "TRY",
+    "EUR",
+    "USD"
+  ],
+  "locale": "tr",
+  "home_country_code": "TR",
+  "home_country": "Türkiye",
+  "fx_anchors_try_per_unit": {
+    "EUR": {
+      "2020": 8.05,
+      "2021": 10.46,
+      "2022": 17.48,
+      "2023": 29.48,
+      "2024": 37.55,
+      "2025": 45.2,
+      "2026": 53.4,
+      "2027": 62.0
+    },
+    "USD": {
+      "2020": 7.01,
+      "2021": 8.89,
+      "2022": 16.57,
+      "2023": 23.74,
+      "2024": 32.8,
+      "2025": 40.2,
+      "2026": 47.5,
+      "2027": 55.0
+    },
+    "GBP": {
+      "2020": 9.0,
+      "2021": 12.22,
+      "2022": 20.45,
+      "2023": 29.53,
+      "2024": 41.95,
+      "2025": 52.0,
+      "2026": 61.5,
+      "2027": 71.0
+    }
+  },
+  "avg_margin": 0.265,
+  "return_rate": 0.014,
+  "overdue_rate": 0.19,
+  "vat_rate": 0.2,
+  "income_tax_rate": 0.25,
+  "export_income_tax_discount": 0.05,
+  "real_cost_drift": 0.028,
+  "real_price_drift": 0.012,
+  "inflation": 0.4,
+  "growth_rate": 0.33,
+  "lines_per_order_mean": 3.1,
+  "order_value_sigma": 0.72,
+  "opening_cash": 26000000,
+  "seasonality": [
+    0.88,
+    0.97,
+    1.08,
+    1.06,
+    1.07,
+    1.03,
+    0.78,
+    0.86,
+    1.1,
+    1.12,
+    1.1,
+    1.05
+  ],
+  "export_revenue_share": 0.36,
+  "eu_export_share_of_export": 0.58,
+  "counts": {
+    "customers": 150,
+    "vendors": 120,
+    "products": 340,
+    "warehouses": 5,
+    "work_centers": 18
+  },
+  "machines_count": 64,
+  "channels": [
+    "OEM Sözleşmeli Üretim",
+    "Tier-1 Fason Üretim",
+    "Doğrudan Satış",
+    "İhracat",
+    "Yedek Parça / Aftermarket",
+    "Proje / Numune"
+  ],
+  "order_sources": [
+    "EDI Çağrı Planı",
+    "E-posta Sipariş",
+    "Portal Siparişi",
+    "Telefon / Sözlü",
+    "Yıllık Sözleşme Çekişi"
+  ],
+  "payment_terms_days": [
+    30,
+    45,
+    60,
+    75,
+    90,
+    120
+  ],
+  "incoterms_domestic": [
+    "EXW",
+    "FCA",
+    "DAP"
+  ],
+  "incoterms_export": [
+    "EXW",
+    "FCA",
+    "FOB",
+    "CPT",
+    "CIF",
+    "DAP",
+    "DDP"
+  ],
+  "shifts": [
+    "1. Vardiya",
+    "2. Vardiya",
+    "3. Vardiya"
+  ],
+  "shift_weights": [
+    42,
+    34,
+    24
+  ],
+  "working_days_per_month": 25.5,
+  "shop_overhead_rate_pct": 0.16,
+  "customer_industries": [
+    "Otomotiv OEM",
+    "Otomotiv Tier-1",
+    "Otomotiv Tier-2",
+    "Ticari Araç",
+    "Traktör ve Tarım Makinaları",
+    "İş Makinaları",
+    "Beyaz Eşya",
+    "Hidrolik ve Pnömatik",
+    "Vana ve Armatür",
+    "Pompa ve Kompresör",
+    "Rulman Üretimi",
+    "Redüktör ve Aktarma Organları",
+    "Savunma Sanayi",
+    "Demiryolu Araçları",
+    "Enerji ve Jeneratör",
+    "İklimlendirme (HVAC)",
+    "Bağlantı Elemanları",
+    "Elektrikli Ev Aletleri",
+    "Makina İmalatı",
+    "Gıda Makinaları",
+    "Tekstil Makinaları",
+    "Ambalaj Makinaları"
+  ],
+  "vendor_types": [
+    "Çelik Servis Merkezi",
+    "Çubuk Çelik Tedarikçisi",
+    "Boru ve Profil",
+    "Dövme Taslak",
+    "Döküm Taslak",
+    "Alüminyum Tedarikçisi",
+    "Paslanmaz Çelik Tedarikçisi",
+    "Pirinç ve Bakır",
+    "Isıl İşlem (Fason)",
+    "Yüzey Kaplama (Fason)",
+    "Taşlama (Fason)",
+    "Lazer Kesim (Fason)",
+    "Kesici Takım",
+    "Bağlama Aparatı ve Fikstür",
+    "Ölçü ve Kontrol Ekipmanı",
+    "Soğutma Sıvısı ve Kimyasal",
+    "Ambalaj Malzemesi",
+    "Bakım Onarım (MRO)",
+    "Yedek Parça ve Rulman",
+    "Elektrik ve Otomasyon",
+    "Enerji Tedarikçisi",
+    "Doğalgaz Tedarikçisi",
+    "Lojistik ve Nakliye",
+    "Gümrük Müşavirliği",
+    "Personel ve Taşeron Hizmet",
+    "Yemek ve Catering",
+    "Temizlik ve Güvenlik",
+    "Bilgi Teknolojileri",
+    "Danışmanlık ve Belgelendirme",
+    "Sigorta",
+    "Finansal Hizmetler",
+    "Tezgah ve Makina Tedarikçisi",
+    "Kalıp ve Aparat İmalatı"
+  ],
+  "tax_codes": [
+    {
+      "code": "TR-KDV-20",
+      "name": "KDV %20 (Genel Oran)",
+      "rate_pct": 20.0,
+      "tax_type": "KDV",
+      "region": "TR",
+      "applies_to": "sales",
+      "description": "Yurt içi teslimlerde uygulanan genel KDV oranı"
+    },
+    {
+      "code": "TR-KDV-10",
+      "name": "KDV %10 (İndirimli Oran)",
+      "rate_pct": 10.0,
+      "tax_type": "KDV",
+      "region": "TR",
+      "applies_to": "sales",
+      "description": "İndirimli orana tabi teslimler"
+    },
+    {
+      "code": "TR-IHR-0",
+      "name": "İhracat İstisnası %0",
+      "rate_pct": 0.0,
+      "tax_type": "KDV",
+      "region": "EXPORT",
+      "applies_to": "sales",
+      "description": "KDV Kanunu 11/1-a ihracat istisnası, gümrük çıkış beyannamesi ile"
+    },
+    {
+      "code": "TR-TEV-50",
+      "name": "KDV Tevkifatı (5/10)",
+      "rate_pct": 20.0,
+      "tax_type": "KDV Tevkifat",
+      "region": "TR",
+      "applies_to": "sales",
+      "description": "Fason imalat hizmetlerinde kısmi tevkifat uygulaması"
+    },
+    {
+      "code": "TR-IND-20",
+      "name": "İndirilecek KDV %20",
+      "rate_pct": 20.0,
+      "tax_type": "İndirilecek KDV",
+      "region": "TR",
+      "applies_to": "purchases",
+      "description": "Yurt içi alımlarda indirilecek KDV"
+    },
+    {
+      "code": "TR-ITH-20",
+      "name": "İthalat KDV %20",
+      "rate_pct": 20.0,
+      "tax_type": "İthalat KDV",
+      "region": "IMPORT",
+      "applies_to": "purchases",
+      "description": "İthalatta gümrükte ödenen ve indirime konu KDV"
+    },
+    {
+      "code": "TR-ITH-0",
+      "name": "Dahilde İşleme İzin Belgesi (DİİB) %0",
+      "rate_pct": 0.0,
+      "tax_type": "İthalat KDV",
+      "region": "IMPORT",
+      "applies_to": "purchases",
+      "description": "İhraç kayıtlı üretim için DİİB kapsamında vergisiz hammadde ithalatı"
+    }
+  ],
+  "quality": {
+    "internal_scrap_pct": 0.021,
+    "rework_pct": 0.014,
+    "customer_ppm_target": 25,
+    "incoming_reject_pct": 0.026,
+    "ncr_per_1000_orders": 46,
+    "internal_ncr_rate": 0.055,
+    "supplier_ncr_rate": 0.022,
+    "customer_complaint_rate": 0.012
+  },
+  "oee": {
+    "availability_target": 0.88,
+    "performance_target": 0.93,
+    "quality_target": 0.985
+  },
+  "maintenance": {
+    "preventive_per_machine_per_year": 5.4,
+    "breakdown_per_machine_per_year": 3.1
+  },
+  "subcontract_share_of_parts": 0.42,
+  "opening_stock_months": 3.5,
+  "replenishment_cover": 1.09,
+  "leads_count": 900,
+  "lost_opportunity_ratio": 1.6,
+  "historical_churn_ratio": 0.31,
+  "hire_year_weights": [
+    30,
+    12,
+    9,
+    8,
+    8,
+    8,
+    9,
+    8,
+    8
+  ],
+  "iot_days": 60,
+  "iot_sample_hours": 2,
+  "iot_machines": 40,
+  "iot_metrics": [
+    {
+      "metric": "spindle_load_pct",
+      "unit": "%",
+      "base": 68,
+      "sigma": 0.18
+    },
+    {
+      "metric": "spindle_speed_rpm",
+      "unit": "rpm",
+      "base": 3200,
+      "sigma": 0.22
+    },
+    {
+      "metric": "cycle_time_sec",
+      "unit": "sn",
+      "base": 74,
+      "sigma": 0.12
+    },
+    {
+      "metric": "parts_per_hour",
+      "unit": "adet/saat",
+      "base": 46,
+      "sigma": 0.2
+    },
+    {
+      "metric": "coolant_temp_c",
+      "unit": "°C",
+      "base": 32,
+      "sigma": 0.1
+    },
+    {
+      "metric": "vibration_mm_s",
+      "unit": "mm/s",
+      "base": 1.9,
+      "sigma": 0.28
+    },
+    {
+      "metric": "power_draw_kw",
+      "unit": "kW",
+      "base": 21,
+      "sigma": 0.2
+    },
+    {
+      "metric": "availability_pct",
+      "unit": "%",
+      "base": 88,
+      "sigma": 0.07
+    }
+  ],
+  "real_wage_drift": 0.015,
+  "meal_allowance_eur": 68,
+  "transport_allowance_eur": 42,
+  "working_capital_loan_ratio": 0.085,
+  "loan_rate_by_year": {
+    "2022": 0.21,
+    "2023": 0.33,
+    "2024": 0.56,
+    "2025": 0.49,
+    "2026": 0.41,
+    "2027": 0.36
+  },
+  "call_off_divisor": 10.0,
+  "performance_loss_factor": 1.12,
+  "downtime_share": 0.155,
+  "downtime_chance": 0.66
+}

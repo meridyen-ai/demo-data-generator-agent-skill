@@ -257,3 +257,11 @@ INDEXES = {
     "iot_readings": ["source_id", "reading_ts"],
     "purchase_orders": ["order_date", "vendor_id"],
 }
+
+
+# --- extended ERP modules (finance, HR, CRM, logistics, assets, service) -----
+# Merged in at import time so every registry above stays the single source of
+# truth. Tables only materialise for industries whose tables.json includes them.
+from . import ddl_ext  # noqa: E402
+
+ddl_ext.install(TABLE_ORDER, COLUMNS, DDL, INDEXES)

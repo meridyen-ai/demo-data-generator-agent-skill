@@ -54,9 +54,13 @@ def cmd_plan(args):
           f"AOV ${profile.avg_order_value:,.0f}, growth {profile.growth_rate:.0%}")
     print(f"Tables ({len(tables)}): {', '.join(tables)}")
     print("\nRevenue by year:")
+    prev = None
     for yi in range(profile.years):
-        print(f"  {profile.start_year+yi}: ${profile.year_revenue(yi):,.0f}  "
-              f"({profile.year_invoices(yi):,} invoices)")
+        rev = profile.revenue_for_year(yi)
+        yoy = "" if prev is None else f"  ({(rev/prev-1)*100:+.1f}%)"
+        partial = "  [YTD]" if (yi == profile.years - 1 and profile.end_month < 12) else ""
+        print(f"  {profile.start_year+yi}: {profile.currency} {rev:,.0f}{yoy}{partial}")
+        prev = rev
     print(f"\nSeed template written: {tpl_path}")
     print("Fill it as seeds.json (meet the *_target counts), then run `build`.")
 
@@ -70,7 +74,8 @@ def cmd_build(args):
     from engine.util import Rng
     filled = seeds_mod.validate_and_fill(
         raw_seeds, profile, Rng(profile.seed).stream("seedfill"),
-        needs_raw="raw_materials" in tables, needs_work_centers="work_centers" in tables)
+        needs_raw="raw_materials" in tables, needs_work_centers="work_centers" in tables,
+        name_style=tuning.get("company_name_style", "us"))
 
     print("Generating rows...")
     g = generate.run_generation(profile, filled, tuning)
@@ -99,11 +104,17 @@ def cmd_build(args):
     print("\n=== SUMMARY ===")
     print(f"Connection: {load.connection_string(profile.slug)}")
     print(f"Checks    : {passed}/{len(checks)} passed")
+    cur = profile.currency
     if "total_revenue" in m:
-        print(f"Revenue   : ${m['total_revenue']:,.0f} net (${m.get('gross_with_tax',0):,.0f} incl. tax) "
+        print(f"Revenue   : {m['total_revenue']:,.0f} {cur} net "
+              f"({m.get('gross_with_tax', 0):,.0f} {cur} incl. tax) "
               f"over {m.get('date_min')}..{m.get('date_max')}")
+    if "units_sold" in m:
+        print(f"Units sold: {m['units_sold']:,.0f} pcs")
     if "open_ar" in m:
-        print(f"Open AR   : ${m['open_ar']:,.0f}")
+        print(f"Open AR   : {m['open_ar']:,.0f} {cur}")
+    if m.get("pnl"):
+        print(f"P&L       : {m['pnl']}")
     print(f"Rows      : {total_rows:,}")
     print("\nTry these queries:")
     print(f'  psql "{load.connection_string(profile.slug)}" -c "SELECT * FROM v_monthly_sales LIMIT 24;"')

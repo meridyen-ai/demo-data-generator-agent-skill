@@ -7,6 +7,15 @@ from __future__ import annotations
 
 
 def build_views(selected: set, today: str) -> str:
+    # Industries with serialized units and multi-currency documents need views
+    # that aggregate on the base-currency columns, so they bring their own set.
+    if "machine_units" in selected:
+        from . import views_ext
+        return views_ext.build_views(selected, today)
+    if "production_operations" in selected:
+        from . import views_mfg
+        return views_mfg.build_views(selected, today)
+
     out = []
 
     if {"sales_orders"} <= selected:
